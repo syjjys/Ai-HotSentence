@@ -9,3 +9,5 @@
 - 进入golang项目文件夹中执行`go mod tidy`自动获取并安装所有项目依赖，然后执行`go run start.go`启动后端。
 - 进入react项目文件夹中执行`npm install`同样安装所有前端项目依赖，然后执行`npm run start`启动前端。
 - 在网页打开`localhost:`+ 前端启动的端口就可以访问成功了。
+### 成品网址：`https://hope.allalive.cn`
+![图片](https://github.com/syjjys/Ai-HotSentence/assets/46161728/9d78d5c7-dd94-4b6d-8005-835fd55c778e)
