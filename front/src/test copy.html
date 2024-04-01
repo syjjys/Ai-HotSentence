@@ -1,0 +1,30 @@
+<div class="grid-container">
+  <div class="grid-item">Item 1</div>
+  <div class="grid-item">Item 2</div>
+  <div class="grid-item">Item 3</div>
+  <div class="grid-item">Item 4</div>
+  <div class="grid-item">Item 5</div>
+  <div class="grid-item">Item 1</div>
+  <div class="grid-item">Item 2</div>
+  <div class="grid-item">Item 3</div>
+  <div class="grid-item">Item 4</div>
+  <div class="grid-item">Item 5</div>
+</div>
+
+<style>
+   .grid-container {
+  display: grid; /* 定义为Grid容器 */
+  grid-template-columns: repeat(3, 1fr); /* 定义三列，每列大小相等 */
+  grid-gap: 10px; /* 定义网格线间的间隔 */
+}
+
+.grid-item {
+  width: 100px;
+  height: 100px;
+  background-color: lightcoral;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+</style>  

@@ -1,0 +1,80 @@
+.barrage-container {
+  margin-top: 10px;
+  margin-left: 5vh;
+  display: grid; /* 定义为Grid容器 */
+  grid-template-columns: repeat(4, 1fr); /* 定义三列，每列大小相等 */
+  grid-gap: 30px; /* 定义网格线间的间隔 */
+  height: 99vh;
+  overflow-y:auto;
+  }
+
+  .bt{
+    text-align: right;
+  }
+  
+  .barrage-message {
+    margin:0px;
+  }
+
+  .card{
+    box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+
+   .container {
+    overflow-x: hidden;
+    overflow-y: hidden;
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    /* 分配空间给Grid布局和列表栏 */
+    gap: 20px;
+    /* 根据需要设置间隔 */
+ } 
+
+  .ls{
+    box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 1);
+  }
+  
+  .list-bar {
+    /* 列表栏样式 */
+    display: flex;
+    padding: 10px; /* 内边距 */
+    flex-direction: column;
+    gap: 10px;
+    /* 设置列表项之间的间隔 */
+  }
+  
+  @keyframes scroll {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+
+  .dz {
+    display: flex;
+    flex-direction: row;
+    margin-left: 30px;
+    gap: 5px;
+  }
+
+  .dznum {
+    margin-top: -1px;
+  }
+
+  .icon-with-text {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .icon-row {
+    display: flex;
+    align-items: center; /* 使图标和文本垂直居中 */
+  }
+  
+  .text {
+    margin-left: 8px; /* 根据需要调整，为图标和数字之间提供一些空间 */
+  }
+  
+  
