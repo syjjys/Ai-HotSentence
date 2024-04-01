@@ -10,4 +10,5 @@
 - 进入react项目文件夹中执行`npm install`同样安装所有前端项目依赖，然后执行`npm run start`启动前端。
 - 在网页打开`localhost:`+ 前端启动的端口就可以访问成功了。
 ### 成品网址：`https://hope.allalive.cn`
-![图片](https://github.com/syjjys/Ai-HotSentence/assets/46161728/9d78d5c7-dd94-4b6d-8005-835fd55c778e)
+![图片](https://github.com/syjjys/Ai-HotSentence/assets/46161728/f98ab35e-957a-4455-ac54-935bd10a34d9)
+
